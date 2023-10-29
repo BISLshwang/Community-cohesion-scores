@@ -16,7 +16,7 @@ For example,
 
 ## 2. Source code
 1) Code for constructing normal tissue genetic networks
-   - WCGNA.r
+   - WCGNA.R
 2) Code for estimating individaulized genetic networks and quantifying community cohesion scores
    - community_cohesion_scores.py
 
