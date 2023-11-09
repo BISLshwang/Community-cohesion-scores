@@ -70,8 +70,8 @@ def make_edge_list_per_community(weight_file):
     df_weight = df_weight.set_index("genes")
 
     os.mkdir("./examples/community_edges")
-    for module in comm_dict:
-        path = "./examples/community_edges/" + module
+    for comm in comm_dict:
+        path = "./examples/community_edges/" + comm
         os.mkdir(path)
 
     for community in sorted(list(comm_dict.keys())):
