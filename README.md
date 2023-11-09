@@ -1,4 +1,4 @@
-# Community cohesion looseness in genetic networks reveals individualized drug targets and resistance for precision oncology
+# Community cohesion looseness in genetic networks reveals individualized drug targets and resistance 
 Community cohesion originally introduced in social science represents how closely people in a particular community interact with each other. It has been known that the social ties reduce risk of diseases and mortality. Here, we propose that the concept of community cohesion could be applied between genes as well to discover therapeutic and prognostic biomarkers for precision oncology. We develop community cohesion scores which capture unique characteristics of the community cohesion looseness in each individualized genetic network. It allows precise quantification of the community ability to retain the normal interactions between the genes and their cellular functions. Using breast cancer as proof-of-concept study to illustrate our method, we show that the community cohesion scores are superior to single-gene based biomarkers in terms of identifying individualized drug targets and resistance. Our method enables to open a new horizon for the biomarker development in precision oncology.
 
 ## 1. Dataset
@@ -11,9 +11,9 @@ For example,
 
 
 ## 2. Source code
-1) Code for constructing normal tissue genetic networks
-   - WCGNA.R
-2) Code for estimating individaulized genetic networks and quantifying community cohesion scores
+1) Code for constructing the normal tissue genetic networks
+   - WGCNA.R
+2) Code for estimating the individaulized genetic networks and quantifying the community cohesion scores
    - community_cohesion_scores.py
 
 Instruction to use the source code:
