@@ -20,6 +20,11 @@ Instruction to use the source code:
 1) Download the code.
 2) Make sure you are in the main directory where the code is.
 3) Run the following.
+   - Prepare 4 types of input files (e.g., we provide toy examples files in /examples)
+      - df_comm.csv: file providing the genes and the corresponding genetic community
+      - df_weight.csv: file providing the network edges and their weights (we only provides the weights of one community due to the uploded file size limitation)
+      - control_samples_breast.csv: file providing the gene expression profiles of control samples
+      - case_samples_breast_cancer.csv: file providing the gene expression profiles of case samples (at least one sample)
 
 ```
 python3 community_cohesion_scores.py examples/df_comm.csv examples/df_weight.csv examples/control_samples_breast.csv examples/case_samples_breast_cancer.csv
